@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Banco</title>
+</head>
+<body>
+    <h1>Sistema de Banco</h1>
+
+    <h2>Saldo:  <span id="saldo">1000</span></h2>
+
+    <select id="operacao">
+        <option value="saldo">Consultar saldo</option>
+        <option value="deposito">Depositar</option>
+        <option value="saque">Sacar</option>
+        <option value="extrato">Ver extrato</option>
+    </select>
+
+    <input type="number" id="valor">
+
+    <button type="button" id="executar">Executar operação</button>
+
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
